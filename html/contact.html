@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <title>Remu5.www -Contact-</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <!--<link rel="stylesheet" href="../css/contact.css">-->
+</head>
+
+<body>
+    <main id="main-visual">
+        <div class="contact-visual relative">
+            <p class="absolute transform md:text-7xl font-serif text-5xl text-blue-600 left-1/2 bottom-1/2 -translate-x-1/2 translate-y-1/2">Contact</p>
+            <div class="main-img ">
+                <img src="../img/contact-main.jpg" alt="contact-main" class="w-full">
+            </div>
+        </div>
+    </main>
+    <form action="/" method="POST" class="contact-form md:mx-52 mx-5 my-16">
+        <div class="form-group mb-8">
+            <label for="name" class="block">name</label>
+            <input type="text" id="name"
+                class="w-full md:py-2 border-2 border-purple-400 focus:outline-none focus:border-b-2 focus:border-pink-400 placeholder-gray-500 placeholder-opacity-50"
+                placeholder="お名前">
+        </div>
+        <div class="form-group mb-8">
+            <label for="email" class="block">email</label>
+            <input type="email" id="email"
+                class="w-full py-2 border-2 border-purple-400 focus:outline-none focus:border-b-2 focus:border-pink-400 placeholder-gray-500 placeholder-opacity-50"
+                placeholder="メールアドレス">
+        </div>
+        <div class="form-group mb-8">
+            <label for="other">Other</label>
+            <textarea id="other" cols="30" rows="8"
+                class="w-full py-2 border-2 border-purple-400 focus:outline-none focus:border-b-2 focus:border-pink-400 placeholder-gray-500 placeholder-opacity-50"
+                placeholder="その他"></textarea>
+        </div>
+        <div class="text-center">
+            <input type="submit" id="submit"
+                class="text-purple-700 bg-yellow-300 rounded-full px-16 py-3 text-lg font-sans" name="submit"
+                value="送信!">
+        </div>
+    </form>
+    <div class="text-center">
+        <a href="index.html"
+            class="text-purple-700 bg-yellow-300 rounded-full mt-20 px-16 py-3 text-lg font-sans">戻る</a>
+    </div>
+    <footer class="m-6">
+        <div class="text-center">
+            <p class="font-serif">&copy;RemuriaSanTeam</p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../js/contact.js"></script>
+</body>
+
+</html>
